@@ -1,5 +1,5 @@
 import React from "react"
-import {Link, useLocation} from "react-router-dom"
+import {Link, Outlet, useLocation} from "react-router-dom"
 
 export function Home(){
     return(
@@ -41,6 +41,29 @@ export function Portfolio(){
     return(
         <div>
             <h1>Portfolio</h1>
+            <Outlet />
+        </div>
+    )
+}
+export function CodingBootcamp(){
+    return(
+        <div>
+            <h1>Full-Stack Developer Coding Bootcamp</h1>
+        </div>
+    )
+}
+export function UnityDev(){
+    return(
+        <div>
+            <h1>AR/VR/XR and Unity Development</h1>
+        </div>
+    )
+}
+
+export function InstructionalDesign(){
+    return(
+        <div>
+            <h1>Instructional Design and Corporate Training</h1>
         </div>
     )
 }
