@@ -1,7 +1,7 @@
 import React from "react";
 import "./App.css";
 import { Routes, Route } from "react-router-dom";
-import { Home, About, Resume, Contact, Portfolio } from "./pages";
+import { Home, About, Resume, Contact, Portfolio, Whoops404 } from "./pages";
 
 function App() {
   return (
@@ -12,6 +12,7 @@ function App() {
         <Route path="/resume" element={<Resume/>} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/portfolio" element={<Portfolio />} />
+        <Route path="*" element={<Whoops404 />} />
       </Routes>
     </div>
   );
