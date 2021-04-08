@@ -3,6 +3,7 @@ import "./App.css";
 import { Routes, Route } from "react-router-dom";
 import { Home, About, Resume, Contact, Portfolio, Whoops404, CodingBootcamp,  UnityDev, InstructionalDesign } from "./pages";
 import Navbar from "./Components/Navbar"
+import JumboHello from "./Components/JumboHello"
 
 function App() {
   return (
@@ -11,7 +12,8 @@ function App() {
   
     <div>
       <Navbar />
-      <Routes>
+      <JumboHello />
+      {/* <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/resume" element={<Resume />} />
@@ -23,7 +25,7 @@ function App() {
           
            </Route>
         <Route path="*" element={<Whoops404 />} />
-      </Routes>
+      </Routes> */}
     </div>
   );
 }

@@ -3,6 +3,7 @@ import "../App.css";
 import ReorderIcon from "@material-ui/icons/Reorder";
 import { Link } from "react-router-dom"
 import { Home, About, Resume, Contact, Portfolio, Whoops404, CodingBootcamp,  UnityDev, InstructionalDesign } from "../pages";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 
 function Navbar() {
@@ -16,7 +17,7 @@ function Navbar() {
         <Link to="/about">About</Link>
         <Link to="/resume">Resume</Link>
         <Link to="/portfolio">Portfolio</Link>
-         <Link to="/contact">Contact</Link>
+        <Link to="/contact">Contact</Link>
         </div>
         <button onClick={() => setShowLinks(!showLinks)}>
           {" "}
@@ -27,5 +28,7 @@ function Navbar() {
     </div>
   );
 }
+
+
 
 export default Navbar;
