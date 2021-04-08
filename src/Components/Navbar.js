@@ -10,9 +10,9 @@ function Navbar() {
     <div className="Navbar">
       <div className="leftside">
         <div className="links" id={showLinks ? "hidden" : ""}>
-          <a href="/index.html">Home</a>
-          <a href="/about">About</a>
-          <a href="/contact">Contact</a>
+          <Link to="index.html">Home</Link>
+          <Link to="about">About</Link>
+          <a href="contact">Contact</a>
           <a href="resume">Resume</a>
           <a href="portfolio">Portfolio</a>
         </div>
