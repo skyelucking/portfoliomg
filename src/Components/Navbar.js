@@ -13,6 +13,7 @@ function Navbar() {
     <div className="Navbar">
       <div className="leftside">
         <div className="links" id={showLinks ? "hidden" : ""}>
+          
         <Link to="/">Home</Link>
         <Link to="/about">About</Link>
         <Link to="/resume">Resume</Link>

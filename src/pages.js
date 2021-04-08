@@ -1,16 +1,11 @@
 import React from "react"
 import {Link, Outlet, useLocation} from "react-router-dom"
+import JumboHello from "./Components/JumboHello"
 
 export function Home(){
     return(
         <div>
-            <h1>Skye Lucking Bootcamp Portfolio</h1>
-            <nav>
-                <Link to="/about">About</Link>
-                <Link to="/resume">Resume</Link>
-                <Link to="/portfolio">Portfolio</Link>
-                <Link to="/contact">Contact</Link>
-            </nav>
+             <JumboHello />
         </div>
     )
 }
