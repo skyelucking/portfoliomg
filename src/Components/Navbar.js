@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import "../App.css";
 import ReorderIcon from "@material-ui/icons/Reorder";
+import { Link } from "react-router-dom"
+import { Home, About, Resume, Contact, Portfolio, Whoops404, CodingBootcamp,  UnityDev, InstructionalDesign } from "../pages";
 
 
 function Navbar() {
@@ -10,11 +12,11 @@ function Navbar() {
     <div className="Navbar">
       <div className="leftside">
         <div className="links" id={showLinks ? "hidden" : ""}>
-          <Link to="index.html">Home</Link>
-          <Link to="about">About</Link>
-          <a href="contact">Contact</a>
-          <a href="resume">Resume</a>
-          <a href="portfolio">Portfolio</a>
+        <Link to="/">Home</Link>
+        <Link to="/about">About</Link>
+        <Link to="/resume">Resume</Link>
+        <Link to="/portfolio">Portfolio</Link>
+         <Link to="/contact">Contact</Link>
         </div>
         <button onClick={() => setShowLinks(!showLinks)}>
           {" "}
