@@ -45,7 +45,7 @@ const PortInfo = ({ id, title, portImg, portLink }) => {
     <container>
       <div className="row">
         <div className="col-3-sm" style={{marginLeft: '55px'}}>
-     <card ><a href={process.env.PUBLIC_URL + "/#" + portLink}><img src={process.env.PUBLIC_URL + portImg}  className="port-img"></img></a></card>
+     <card ><a href={portLink}><img src={process.env.PUBLIC_URL + portImg}  className="port-img"></img></a></card>
      </div>
      </div>
 

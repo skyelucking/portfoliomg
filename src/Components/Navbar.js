@@ -16,7 +16,7 @@ function Navbar() {
           
         <Link to="/">Home</Link>
         <Link to="/about">About</Link>
-        <Link to="/resume">Resume</Link>
+        <a href="https://skyelucking.github.io/02-responsive-portfolio/Assets/SkyeResume.pdf">Resume</a>
         <Link to="/portfolio">Portfolio</Link>
         <Link to="/contact">Contact</Link>
         </div>
