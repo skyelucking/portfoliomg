@@ -2,6 +2,7 @@ import React from "react"
 import { Outlet, useLocation} from "react-router-dom"
 import JumboHello from "./Components/JumboHello"
 import AboutSkye from "./Components/About"
+import { Portfolios } from "./Portfolios";
 
 export function Home(){
     return(
@@ -33,12 +34,13 @@ export function Contact(){
         </div>
     )
 }
-export function Portfolio(){
+export function Portfolio({ id, title, content, link, thumb, slug }){
     return(
+        <>
         <div>
-            <h1>Portfolio</h1>
-            <Outlet />
+        <Portfolios />
         </div>
+        </>
     )
 }
 export function CodingBootcamp(){

@@ -1,4 +1,3 @@
-import { CenterFocusStrong } from "@material-ui/icons";
 import React from "react";
 
 function AboutSkye() {
@@ -11,7 +10,7 @@ function AboutSkye() {
         <img
           src={process.env.PUBLIC_URL + "/Assets/Images/skyelucking_about.png"}
           className="imgFluid"
-          alt="Skye Lucking picture - smiling."
+          alt="Skye Lucking - smiling."
           style={{ marginRight: 15 }}
         />
         <div>
