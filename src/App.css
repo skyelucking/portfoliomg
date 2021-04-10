@@ -7,6 +7,16 @@
 
 }
 
+.portlong-img {
+  margin-left: 10px; 
+  margin-right: 10px;
+  float: inherit;
+  width: 650px;
+  margin-top: 25px;
+  
+
+}
+
 .Footer{
   margin-top: 20px;
 }
