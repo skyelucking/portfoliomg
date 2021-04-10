@@ -1,6 +1,7 @@
 import React from "react"
-import {Link, Outlet, useLocation} from "react-router-dom"
+import { Outlet, useLocation} from "react-router-dom"
 import JumboHello from "./Components/JumboHello"
+import AboutSkye from "./Components/About"
 
 export function Home(){
     return(
@@ -13,7 +14,7 @@ export function Home(){
 export function About(){
     return(
         <div>
-            <h1>Skye Lucking ~ About</h1>
+             <AboutSkye />
         </div>
     )
 }

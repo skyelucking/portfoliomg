@@ -8,7 +8,7 @@ import EmailIcon from '@material-ui/icons/Email';
 
 function Footer() {
    return (
-    <div>
+    <div style={{marginTop: 50}}>
     <div className='Footer'>
       <nav className='navbar fixed-bottom' >
       <div className='container-sm justify-content-center'>
