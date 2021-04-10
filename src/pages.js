@@ -2,7 +2,7 @@ import React from "react"
 import { Outlet, useLocation} from "react-router-dom"
 import JumboHello from "./Components/JumboHello"
 import AboutSkye from "./Components/About"
-import { Portfolios } from "./Portfolios";
+import { Portfolios } from "./Components/Portfolios";
 
 export function Home(){
     return(
