@@ -41,8 +41,7 @@ export function Portfolio({ id, title, content, link, thumb, slug }){
         <>
         <div>
         <Portfolios />
-        <Bootcamps />
-       
+        
         </div>
         </>
     )
