@@ -19,7 +19,9 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/resume" element={<Resume />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="/portfolio" element={<Portfolio />}>
+        <Route path="/bootcamp" element={<BootPort />} />
+        <Route path="/portfolio" element={<Portfolio />} >
+          
         
           <Route path="/unity" element={<UnityDev />} />
           <Route path="/instructionaldesign" element={<InstructionalDesign />} />
