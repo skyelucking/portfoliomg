@@ -14,6 +14,8 @@ Now that I've worked with React and have multiple projects to share, I'm updatin
 
 <img src="https://github.com/skyelucking/portfoliomg/blob/main/public/Assets/Images/SS1.png"></img>
 
+<img src="https://github.com/skyelucking/portfoliomg/blob/main/public/Assets/Images/SS2.png"></img>
+
 
 ## Github Pages Link to Deployed App
 <a href="https://skyelucking.github.io/portfoliomg/">https://skyelucking.github.io/portfoliomg/</a>
