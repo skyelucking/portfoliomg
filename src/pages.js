@@ -114,7 +114,7 @@ export function BootPort({ id, title, content, link, thumb, slug }) {
         <div className="container" style={{ width: "60%" }}>
           <b>
             None of the projects below would have been possible without my tutor
-            <a href="https://www.linkedin.com/in/fredrodolfo/">Fred Rodolfo</a>, my instructor, <a href="https://www.linkedin.com/in/logan-garland-b941106/">Logan Garland</a>, and class TA, <a href="https://www.linkedin.com/in/nellie-nelson/">Nellie
+            <a href="https://www.linkedin.com/in/fredrodolfo/"> Fred Rodolfo</a>, my instructor, <a href="https://www.linkedin.com/in/logan-garland-b941106/">Logan Garland</a>, and class TA, <a href="https://www.linkedin.com/in/nellie-nelson/">Nellie
             Nelson</a>! For an extended portfolio of other technical work visit <a href="#/portfolio">this page</a>.
           </b>{" "}
         </div>
