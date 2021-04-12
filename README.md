@@ -24,14 +24,12 @@ Now that I've worked with React and have multiple projects to share, I'm updatin
 <a href="https://github.com/skyelucking/portfoliomg">https://github.com/skyelucking/portfoliomg</a>
 
 <hr>
-<h1>Link to Portfolio Page Where Project Will Be Highlighted</h1>
-<a href="https://skyelucking.github.io/codingBootcamp_portfolio.html">https://skyelucking.github.io/codingBootcamp_portfolio.html</a>
-
 <h1>Now here is your joke...</h1> <br>
-Q: It's not that my family refuses to play deduction board games with me....
+Q: (Programmer) What did 0 say to 1?
+
 
 <br>
 <br>
 <br>
-<em>– A: They just haven't a Clue.
+<em>– A: You're a bit too much.
 </em>
