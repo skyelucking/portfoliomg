@@ -12,11 +12,7 @@ Now that I've worked with React and have multiple projects to share, I'm updatin
 
 ## Screen Shots
 
-<img src="#/Assets/Images/SS1.png"          
-            className="portlong-img img-fluid"
-            alt="Full Stack Developer Coding Bootcamp at University of Arizona"
-            style="marginBottom: 30px"
-          ></img>
+<img src="https://github.com/skyelucking/portfoliomg/blob/main/public/Assets/Images/SS1.png"></img>
 
 
 ## Github Pages Link to Deployed App
