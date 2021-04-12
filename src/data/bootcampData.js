@@ -100,7 +100,7 @@ export const BootcampData = [
   },
   {
     id: "10",
-    title: "The Hanz & Franz Workout Tracker!",
+    title: "Rich Uncle Pennybags Budget-On-The-Go Tracker! !",
     portImg: "/Assets/Images/pennybags.png",
     deployLink: "https://budget-tracker-skyelucking.herokuapp.com/",
     repoLink: "https://github.com/skyelucking/Budget-Tracker-SkyeLucking",
